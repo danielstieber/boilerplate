@@ -86,31 +86,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./package.json":
-/*!**********************!*\
-  !*** ./package.json ***!
-  \**********************/
-/*! exports provided: name, version, description, main, scripts, keywords, author, license, devDependencies, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"name\":\"boilerplate\",\"version\":\"0.0.2\",\"description\":\"\",\"main\":\"webpack.config.js\",\"scripts\":{\"test\":\"echo \\\"Error: no test specified\\\" && exit 1\",\"dev\":\"npm run development\",\"development\":\"cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js\",\"watch\":\"npm run development -- --watch\",\"hot\":\"cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js\",\"prod\":\"npm run production\",\"production\":\"cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js\"},\"keywords\":[],\"author\":\"Daniel Stieber\",\"license\":\"MIT\",\"devDependencies\":{\"cross-env\":\"^5.2.0\",\"laravel-mix\":\"^4.1.2\",\"resolve-url-loader\":\"3.1.0\",\"sass\":\"^1.22.10\",\"sass-loader\":\"7.*\",\"tailwindcss\":\"^1.1.2\",\"vue-template-compiler\":\"^2.6.10\"}}");
-
-/***/ }),
-
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 var checkmark = document.querySelector('#js');
 checkmark.innerHTML = "&#10004;";
-
-var packageJson = __webpack_require__(/*! ../../package.json */ "./package.json");
-
-var version = document.querySelector('#version');
-version.innerHTML = packageJson.version;
 
 /***/ }),
 
