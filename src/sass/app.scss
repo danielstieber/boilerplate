@@ -5,16 +5,3 @@
 
 @tailwind utilities;
 
-#scss::after {
-	content: "✔";
-}
-
-#tailwind::after {
-	content: "✔";
-	visibility: hidden;
-}
-
-#tailwind.works::after {
-	@apply .visible;
-}
-

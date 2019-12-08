@@ -1,3 +1,1 @@
-
-const checkmark = document.querySelector('#js');
-checkmark.innerHTML = "&#10004;";
+// Your Javascript code here

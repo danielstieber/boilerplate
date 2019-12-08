@@ -7,7 +7,3 @@ mix.js('src/js/app.js', 'js')
 		processCssUrls: false,
 		postCss: [ tailwindcss('tailwind.config.js') ],
 	})
-	.browserSync({
-            proxy: 'boilerplate.test',
-            files: ['src/**/*', '*.html' , '*.php']
-          });
