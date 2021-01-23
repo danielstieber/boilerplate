@@ -1,4 +1,4 @@
-Boilerplate
+Boilerplate 0.1
 =======================
 
 A simple boilerplate for quick web projects.
@@ -10,9 +10,15 @@ Includes
 ## Usage
 
 * Run `npm install --dev` to install dependencies. 
-* Run `npm run watch` on your development environment & `npm run prod` on production environment.
+* Run `npm run watch` to start with browsersync on your development environment.
+* Run `npm run production` on your production environment.
 
 ## Changelog
+*0.1.0*
+- Updated to latest Mix
+- Updated to Tailwind 2.0.2
+- Removed Vue
+
 *0.0.4*
 - Removed Browsersync
 - Removed example code
